@@ -1,0 +1,21 @@
+{% load static %}
+<form action="/index" method="post">
+<div class="col-sm-4 sidenav bg-1">
+      <button class="btn btn-default bg-1" type="submit" name="bonoloto">
+          <img src="{% static 'logos/LogoBonoloto.png' %}" class="img-responsive center-block">
+          <a href="#">Bono Loto</a>
+      </button>
+      <button class="btn btn-default bg-1" type="submit" name="euro">
+           <img src="{% static 'logos/LogoEuromillones.png' %}" class="img-responsive center-block">
+          <a href="#">Euro Millones</a>
+      </button>
+      <button class="btn btn-default bg-1" type="submit" name="gordo">
+           <img src="{% static 'logos/LogoGordoPrimitiva.png' %}" class="img-responsive center-block">
+          <a href="#">Gordo Primitiva</a>
+      </button>
+      <button class="btn btn-default bg-1" type="submit" name="primitiva">
+           <img src="{% static 'logos/LogoPrimitiva.png' %}" class="img-responsive center-block">
+          <a href="#">Primitiva</a>
+      </button>
+</div>
+    </form>
